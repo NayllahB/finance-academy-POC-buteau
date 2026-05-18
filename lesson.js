@@ -28,7 +28,7 @@ const renderLesson =(lesson) =>{
         <h1>${lesson["lesson-title"]}</h1>
         <p class="lesson-tagline">${lesson["lesson-tagline"]}</p>
         <p>${lesson["content"]}</p>
-        <a class="back-to-home-link" href="home.html">Back to Home</a>
+        <a class="back-to-home-link" href="index.html">Back to Home</a>
     `
 }
 
