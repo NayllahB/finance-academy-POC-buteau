@@ -2,3 +2,40 @@
     margin: 0;
     padding: 0;
 }
+
+.homepage-section,
+.lesson-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.homepage-section h2{
+    margin-top: 20px;
+}
+
+button,
+.back-to-home-link{
+    background-color: #758976;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.button-section{
+    margin: 40px;
+}
+
+.lesson-tagline{
+    font-style: italic;
+    margin: 20px 0px;
+    font-size: 18px;
+}
+.back-to-home-link{
+    text-align: center;
+}
